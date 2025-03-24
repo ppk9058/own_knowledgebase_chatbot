@@ -1,0 +1,8 @@
+langchain==0.0.283
+PyPDF2
+Python-dotenv==1.0.0
+streamlit
+faiss-cpu==1.7.4
+google-generativeai
+iktoken
+python-dotenv==1.0.0

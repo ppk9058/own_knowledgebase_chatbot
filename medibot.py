@@ -21,7 +21,7 @@ load_dotenv()
 
 # Configure Gemini
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", convert_system_message_to_human=True)
 
 #App interface
 st.title('MediBot')
